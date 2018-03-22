@@ -1,0 +1,33 @@
+{
+  "name": "chat-core",
+  "version": "1.0.0",
+  "description": "This is a common library that will be used by all of the cloud chat services",
+  "main": "app.js",
+  "types": "app.d.ts",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Avishay Ben Shabtai",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "log4js": "2.5.3",
+    "pg": "7.4.1",
+    "q": "1.5.1",
+    "restify": "6.3.4"
+  },
+  "devDependencies": {
+    "@types/body-parser": "1.16.8",
+    "@types/log4js": "2.3.5",
+    "@types/node": "9.4.7",
+    "@types/q": "1.0.7",
+    "@types/restify": "5.0.7",
+    "del": "3.0.0",
+    "event-stream": "3.3.4",
+    "gulp": "3.9.1",
+    "gulp-mocha": "5.0.0",
+    "gulp-sourcemaps": "2.6.4",
+    "gulp-typescript": "4.0.1",
+    "typescript": "2.7.2"
+  }
+}
